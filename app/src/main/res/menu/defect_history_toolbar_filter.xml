@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/defect_history_action_export"
+        android:title="@string/export"
+        android:orderInCategory="80"
+        android:icon="@drawable/export_icon"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/defect_history_filter_all_defect"
+        android:orderInCategory="100"
+        android:title="@string/tower_all_defect"
+        app:showAsAction="never"/>
+
+</menu>

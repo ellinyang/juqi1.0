@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/inquire_title_toolbar"
+        android:background="@color/colorPrimary"
+        toolbar:navigationIcon="@drawable/smallback"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/inquire_progress_circle"
+        android:layout_marginTop="200dp"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/defect_history_inquire_list_view"
+        android:layout_below="@id/inquire_title_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    </ListView>
+
+</RelativeLayout>
